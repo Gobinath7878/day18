@@ -1,0 +1,67 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    background-color: #0c2a4a;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+   
+    
+}
+.row{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.img{
+    height: 150px;
+}
+/* .capitaltext1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/* .capitaltext2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+/* .capitaltext3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+
+
+@media (max-width:993px) {
+    .container{
+        display:block;
+        align-items: center;
+        justify-content: center;
+    }
+}
